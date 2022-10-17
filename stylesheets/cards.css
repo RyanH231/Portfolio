@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Source+Serif+Pro&display=swap');
+
+.card
+{
+    margin-top: 3%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:1;
+}
+
+.card__image
+{
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+    border-radius: 5%;
+    align-self: center;
+    transition: transform .5s ease-in;
+}
+
+.card__image:hover
+{
+    transform:scale(1.03,1.03);
+}
+
+.card__title
+{
+    color:white;
+    font-family: "Source Serif Pro", sans-serif;
+}
+
+.card__description
+{
+    color:white;
+    font-family: "Montserrat", sans-serif;
+    align-self: center;
+    max-width: 600px;
+    margin-bottom: 2%;
+}
